@@ -20,7 +20,15 @@ aside {
   width: 20%;
   min-width: 200px;
   height: 100%;
-  background-color: #008fff;
+  background-color: #5b78a7;
+  /*
+    Blau: 4C74A3
+    Häßliches Grün: 767938
+    Blau 2: 8392AB
+
+    #8eb791
+    #7390bf
+  */
 }
 
 aside * {
@@ -42,7 +50,16 @@ a {
 /* Wrapper */
 .wrapper {
   margin-left: 20%;
+}
 
+#banner {
+  background-image: url('../IMG/banner_1_4.jpg');
+  background-size: 100%;
+  width: 100%;
+  /*padding-top: 30.6775407779%;*/
+  /*padding-top: 30.6701785191%;*/
+  padding-top: 30.6666666667%;
+  height: 0;
 }
 
 .wrapper section {
@@ -50,6 +67,10 @@ a {
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
 }
 
 table {
