@@ -20,8 +20,12 @@ aside {
   width: 20%;
   min-width: 200px;
   height: 100%;
-  background-color: #5b78a7;
+  background-color: #FDEAA8;
   /*
+  gelb: FBDA6A
+  blasses orange: FFB366
+  35742C dunkles grün
+  BCCC4F
     Blau: 4C74A3
     Häßliches Grün: 767938
     Blau 2: 8392AB
@@ -38,7 +42,7 @@ aside * {
 
 aside img {
   display: block;
-  width: 128px;
+  width: 256px;
   margin: 15% auto 10%;
 }
 
@@ -53,7 +57,7 @@ a {
 }
 
 #banner {
-  background-image: url('../IMG/banner_1_4.jpg');
+  background-image: url('../IMG/banner.jpg');
   background-size: 100%;
   width: 100%;
   /*padding-top: 30.6775407779%;*/
