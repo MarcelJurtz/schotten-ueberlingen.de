@@ -1,0 +1,24 @@
+.thumbnails {
+  overflow: scroll;
+  white-space:nowrap;
+  margin-bottom: 15px;
+}
+
+.thumbnails img {
+	height: 82px;
+	border: 2px solid #333;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+
+}
+
+.thumbnails img:hover {
+	border: 2px solid #FDEAA8;
+	cursor:pointer;
+}
+
+.display img {
+	border: 2px solid #333;
+	padding: 1px;
+	width: 100%;
+}
