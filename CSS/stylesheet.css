@@ -8,6 +8,10 @@
   background: transparent;
 }
 
+a {
+  color: #1d71b8;
+}
+
 /* Font */
 body {
   font-family: sans-serif;
@@ -38,6 +42,21 @@ aside {
 aside * {
   text-align: center;
   margin: 3% 0 3% 0;
+}
+
+aside li {
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.1s ease;
+  background-color: #fce592;
+}
+
+aside li:hover {
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+  transition: 0.1s ease;
 }
 
 aside img {
@@ -78,7 +97,18 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 25px;
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #000;
+   line-height: 0.1em;
+   margin: 10px 0 50px;
+   padding-top: 50px;
+   margin-top: -50px;
+}
+
+h2 span {
+    background:#fff;
+    padding:0 10px;
 }
 
 h3 {
