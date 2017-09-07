@@ -1,4 +1,4 @@
-* {
+﻿* {
   /* Spacing */
   margin: 0;
   padding: 0;
@@ -49,11 +49,11 @@ aside li {
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all .2s ease-in-out;
-  background-color: #fce592;
+  /*background-color: #fce592;*/
 }
 
 aside li:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 aside img {
